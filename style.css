@@ -14,23 +14,20 @@
   .first {
     position: sticky;
     top: 0;
-  }
-  .second {
-    z-index: 2;
+    z-index: -1;
   }
   .first:before,
   .second:before {
     position: absolute;
     width: 100%;
     height: 100%;   
-    content: '',
+    content: '';
   }
   .first .aspect-ratio-holder {
     padding-bottom: 108.21256%;
   }
   .second .aspect-ratio-holder {
     padding-bottom: 155.07246%;
-    z-index: 2;
   }
   .picture {
     max-width: 100%;
