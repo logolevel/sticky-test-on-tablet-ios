@@ -30,6 +30,7 @@
   }
   .second .aspect-ratio-holder {
     padding-bottom: 155.07246%;
+    z-index: 2;
   }
   .picture {
     max-width: 100%;
