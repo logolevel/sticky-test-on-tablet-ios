@@ -29,7 +29,9 @@
   .second .aspect-ratio-holder {
     padding-bottom: 155.07246%;
   }
-  .picture {
+  .picture,
+  .video-wrapper,
+  video {
     max-width: 100%;
     position: absolute;
     width: 100%;

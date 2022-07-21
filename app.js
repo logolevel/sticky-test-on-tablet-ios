@@ -6,6 +6,7 @@ function animateMobile() {
 
 		function animateFirstCampaign(triggerSection) {
 			const imgContentMobile = container.querySelector('.picture');
+			const videoContentMobile = container.querySelector('.video-wrapper');
 
 			const campaignBorderMobileTl = gsap.timeline({
 				scrollTrigger: {
@@ -21,6 +22,9 @@ function animateMobile() {
 			campaignBorderMobileTl.add('start');
 			imgContentMobile
 				? campaignBorderMobileTl.from(imgContentMobile, { width: '60%' }, 'start')
+				: false;
+				videoContentMobile
+				? campaignBorderMobileTl.from(videoContentMobile, { width: '60%' }, 'start')
 				: false;
 		}
 	});
