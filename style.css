@@ -7,16 +7,14 @@
     display: flex;
     flex-direction: column;
   }
-  .first,
   .second {
     position: relative;
+    z-index: 1;
   }
   .first {
     position: sticky;
     top: 0;
-  }
-  .second {
-    z-index: 1;
+	-webkit-transform: translate3d(0,0,0);
   }
   .first:before,
   .second:before {
