@@ -31,3 +31,12 @@ function animateMobile() {
 }
 
 animateMobile();
+
+
+// $(window).on('scroll', _.throttle(() => {
+// 	console.log('throttle on scroll');
+// }, 500));
+
+// $(window).on('scroll', _.throttle(() => {
+// 	console.log('leading TRUE');
+// }, 500, { 'leading': true }, ));
