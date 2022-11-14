@@ -32,7 +32,7 @@ function animateMobile() {
 
 animateMobile();
 
-
+// TODO: Test the differences:
 // $(window).on('scroll', _.throttle(() => {
 // 	console.log('throttle on scroll');
 // }, 500));
